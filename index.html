@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>github.io: DaOneTwo </title>
+    <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
+<div id="app">
+    {{ 5 * 2 }}
+    [{{ Download Soundmaker.zip }}]("{{ /SoundMaker.zip | relative_url }}")
+
+</div>
 <h1>Howdy Folks!</h1>
 <p>Hold tight this is just the beginning!</p>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="{{ /main.js | relative_url }}"></script>
 </body>
 </html>
