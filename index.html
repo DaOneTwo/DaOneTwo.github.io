@@ -23,8 +23,10 @@
                 <p class="card-text">Using the buttons below students can download the files needed in a simple .zip format. This will
                     reduce the barrier to entry. A link to the git repo is also provided for those with more advanced
                     capabilities.</p>
-                <a href="{{ soundmaker.filename }}" class="btn btn-primary col-sm-12 col-lg-6">Download {{ soundmaker.filename }}</a>
-                <a href="" class="btn btn-primary col-sm-12 col-lg-6">View SoundMaker on Github</a>
+                <div class="col-sm-12">
+                    <a :href="soundmaker.filename" class="btn btn-primary col-sm-12 col-lg-6">Download {{ soundmaker.filename }}</a>
+                    <a href="https://github.com/DaOneTwo/SoundMaker" class="btn btn-primary col-sm-12 col-lg-6" target="_blank">View SoundMaker on Github</a>
+                </div>
             </div>
         </div>
     </div>
