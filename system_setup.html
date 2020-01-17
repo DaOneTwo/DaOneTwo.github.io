@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DaOneTwo: System Setup</title>
+    <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<div id="app">
+    <div class="container">
+        <div class="card col-sm-12">
+            <div class="card-body">
+                <h3 class="card-title">System Setup</h3>
+                <p class="card-text">
+                    Getting started programming in python is relatively simple. We will need a few things throughout the
+                    life of this class. If at all possible it would be great if you could get your system ready Before
+                    the first day of class. I am including some links and basic instructions for PC's (Windows)
+                    and Macs (OSX) operating systems.
+                </p>
+                <p class="card-text">Items we will need are...</p>
+                <ul>
+                    <li>Python 3.8 version</li>
+                    <li>Basic Text Editor</li>
+                    <li>PyCharm Education Edition</li>
+                </ul>
+                <div class="card col-sm-12" id="WindowsSetup">
+                    <div class="card-body">
+                        <h4 class="card-title">Windows Python Setup</h4>
+                        <p>These instructions are assuming you are running Windows 10. Running an older version things
+                            should be very similar but if you run into any issues we may need to work through those
+                            together.</p>
+                        <p>The youtube video linked below is a great quick tutorial on how to install python on your
+                            windows system. It is not hard to do but there are aq few options that may cause you some
+                            heartburn. Watching the video may help with that. Just a couple quick bullet points
+                            regarding the video.</p>
+                        <ul>
+                            <li>When he says type win S he means press the windows key and allow the menu to come up.
+                            </li>
+                            <li> you can use the direct link to the get to the downloads page for the proper version
+                            </li>
+                            <li>Select all the options he selects. Install for all users, and add python to the path are
+                                the key items needed.
+                            </li>
+                        </ul>
+                        <p><a href="https://www.python.org/downloads/release/python-381/"
+                              target="_blank">Python 3.8 windows downloads</a></p>
+                        <p><a href="https://www.youtube.com/watch?v=djjUDMsAUmY" target="_blank">Youtube tutorial
+                            video</a></p>
+
+                    </div>
+                </div>
+                <div class="card col-sm-12" id="OSXSetup">
+                    <div class="card-body">
+                        <h5 class="card-title">Mac (OSX) Python Setup</h5>
+                        <p class="card-text">OSX actually comes with a system level python. Most developers leave it
+                            alone so nothing gets messed up. They will install the versions they need/want through a
+                            variety of ways. The easiest way is through a package manager called Homebrew. This is the
+                            way I am going to recommend. This is all done from a command line. There is a link to a
+                            youtube video that shows step 2 and 3 at the bottom of this section.
+                        </p>
+                        <h6 class="card-text">Step 1 - Install xcode</h6>
+                        <p class="card-text">open a terminal and run the following command. This will take some time to
+                            download and install.</p>
+                        <p class="card-text">xcode-select --install</p>
+                        <h6 class="card-text">Step 2 - Install Homebrew</h6>
+                        <p class="card-text">In the same terminal run the command</p>
+                        <p class="card-text">/usr/bin/ruby -e "$(curl -fsSL
+                            https://raw.githubusercontent.com/Homebrew/install/master/install)"</p>
+                        <h6 class="card-text">Step 2 - Install Python 3</h6>
+                        <p class="card-text">In the same terminal run the command</p>
+                        <p class="card-text">brew install python3</p>
+                        <p class="card-text">
+                            <a href="https://www.youtube.com/watch?v=XqADAxr7LzI" target="_blank">Youtube Mac Python Brew install</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card col-sm-12" id="SublimeText">
+            <div class="card-body">
+                <h5 class="card-title">Install Sublime Text</h5>
+                <p class="card-text">Sublime text is a basic text editor that can be turned into a pretty full featured
+                    development tool with the use of plugins. One can download and use a free version
+                    very simply. We will use it as a basic text editor.
+                </p>
+                <p class="card-text">You can find the proper installation application for your os at the link below.
+                    Simply
+                    install like you would other applications using default settings.</p>
+                <p class="card-text"><a href="https://www.sublimetext.com/3" target="_blank">Sublime Text download
+                    page</a></p>
+            </div>
+        </div>
+        <div class="card col-sm-12" id="PycharmEdu">
+            <div class="card-body">
+                <h5 class="card-title">Install Pycharm Educational Edition</h5>
+                <p class="card-text">Pycharm is one of the most preferred text editors of Python developers. It offers a
+                    Ton of
+                    help that is honestly probably beyond where we will make it in this class. However, the
+                    educational edition is a little simpler AND it provides access to a bunch of free lessons
+                    that can be worked through. This is likely how we will use it most.</p>
+                <p class="card-text">You can find the proper installation application for your os at the link below.
+                    Simply
+                    install like you would other applications using default settings.</p>
+                <p class="card-text">
+                    <a href="https://www.jetbrains.com/education/download/#section=pycharm-edu"
+                       target="_blank">Download page for PyCharm Education edition</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="card col-sm-12" id="SoundMaker">
+            <div class="card-body">
+                <h5 class="card-title">Sound Maker</h5>
+                <p class="card-text">
+                    Sound Maker is a simple Client/Server Application that was built to be a simple and fun
+                    introduction to Python for students.
+                </p>
+                <p class="card-text">The client was kept pure python on purpose to try to help get the absolute
+                    beginner
+                    to the excitement
+                    of executing code to make another computer on the network do something.</p>
+                <p class="card-text">Running the server requires installing the dependencies in the
+                    requirements.txt
+                    file.</p>
+                <p class="card-text">Using the buttons below students can download the files needed in a simple
+                    .zip
+                    format. This will
+                    reduce the barrier to entry. A link to the git repo is also provided for those with more
+                    advanced
+                    capabilities.</p>
+                <div class="row">
+                    <a href="https://github.com/DaOneTwo/SoundMaker/archive/master.zip" class="btn btn-primary col-sm-12 col-lg-6 mx-lg-2 my-sm-2">Download
+                        Project Files</a>
+                    <a href="https://github.com/DaOneTwo/SoundMaker"
+                       class="btn btn-primary col-sm-12 col-lg-6 mx-lg-2 my-sm-2" target="_blank">View
+                        Project on
+                        Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="/main.js"></script>
+</body>
+</html>
